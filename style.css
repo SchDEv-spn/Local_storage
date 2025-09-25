@@ -1,0 +1,100 @@
+/* --- Estilo base --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+/* --- Encabezado --- */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+/* --- Formulario como tarjeta --- */
+form {
+  background-color: #1e1e1e;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Inputs estilo Material */
+form input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #444;
+  padding: 0.5rem;
+  color: #fff;
+  transition: border-color 0.3s;
+}
+
+form input:focus {
+  border-bottom: 2px solid #00e676;
+  outline: none;
+}
+
+/* Botones estilo Material */
+button, a {
+  background-color: #00e676;
+  border: none;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #121212;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover, a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 10px rgba(0, 230, 118, 0.4);
+}
+
+/* Mensaje del curso */
+#mensaje-curso {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+}
+
+/* Botón borrar estilo rojo */
+#borrar-curso {
+  background-color: #ff1744;
+  color: white;
+  margin-top: 1rem;
+}
+
+#borrar-curso:hover {
+  box-shadow: 0px 4px 10px rgba(255, 23, 68, 0.4);
+}
+
+/* Link a cursos */
+a {
+  display: block;
+  margin-top: 1rem;
+}

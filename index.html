@@ -3,19 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Local storage</title>
+    <title>Local storage cursos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Local storage</h1>
-    <form action="#" id="formulario">
-        <input id="input" type="nombre" placeholder="Ingresa tu nombre">
+    <h1>Gestion de cursos</h1>
+    <form action="#" id="formulario-curso">
+        <input id="curso" type="text" placeholder="nombre del cursos">
+        <input id="profesor" type="text" placeholder="nombre del profesor">
+        <input id="precio" type="text" placeholder="precio">
+        <input id="ciudad" type="text" placeholder="ciudad">
+        <input id="cupo" type="text" placeholder="cupo">
         <button type="submit">Guardar</button>
     </form>
-    <h2 id="saludo">Bienvenido</h2>
-    <button id="borrar">Desechar</button>
-    <a href="perfil.html">Ver perfil</a>
+    <h2 id="mensaje-curso">Aqui se mostrara el curso creado</h2>
+    <button id="borrar-curso">Desechar</button>
+    <br>
+    <a href="curso.html">Ver Cursos</a>
 
     <script src="main.js"></script>
-    <script src="perfil.js"></script>
+
 </body>
 </html>
