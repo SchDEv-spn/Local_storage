@@ -31,6 +31,12 @@ form.addEventListener('submit', (e) =>{
     }
 
     localStorage.setItem('curso', JSON.stringify (nuevoCurso));
+      const cursoCreado = localStorage.getItem('curso');
+  
+        const objetoCurso = JSON.parse(cursoCreado);
+        mensaje.innerHTML = 'curso:' + objetoCurso.nombre +'<br>'+' profesor:' + objetoCurso.profesor + '<br>'+' precio:' + objetoCurso.precio +'<br>'+' ciudad:' +objetoCurso.ciudad +'<br>'+' cupo:' +objetoCurso.cupo;
+        
+    
     form.reset()
 })
 
@@ -42,4 +48,8 @@ document.addEventListener('DOMContentLoaded', () =>{
         mensaje.innerHTML = 'curso:' + objetoCurso.nombre +'<br>'+' profesor:' + objetoCurso.profesor + '<br>'+' precio:' + objetoCurso.precio +'<br>'+' ciudad:' +objetoCurso.ciudad +'<br>'+' cupo:' +objetoCurso.cupo;
         
     }
+})
+btnBorrar.addEventListener('click', () =>{
+    localStorage.removeItem('cursos');
+    mensaje.textContent = 'bienvenido usuario indefinido'
 })
