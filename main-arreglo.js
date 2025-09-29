@@ -23,7 +23,7 @@ form.addEventListener('submit', (e) =>{
     // Validamos: si algún campo está vacío, mostramos un alerta y detenemos el proceso
     if (curso == "" || profesor == ""|| precio == "" || ciudad == "" || cupo == "") {
         alert('POr favor rellenar todos los campos')
-        return
+        return;
     }
 
     // Creamos un objeto con las características del curso
@@ -64,4 +64,4 @@ document.addEventListener('DOMContentLoaded', () =>{
                           + ' ciudad:' + objetoCurso.ciudad +'<br>'
                           + ' cupo:' + objetoCurso.cupo;
     }
-})
+});

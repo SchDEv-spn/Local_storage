@@ -24,12 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
         fila.appendChild(tdPrecio);
         fila.appendChild(tdCiudad);
         fila.appendChild(tdCupo);
-
         tablaBody.appendChild(fila);
-
-    
-        
-
-
     });
 })
