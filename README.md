@@ -3,7 +3,7 @@
 Este proyecto fue creado con el objetivo de **aprender y practicar el uso de Local Storage en JavaScript**.  
 Local Storage es una de las formas más simples de **almacenar información en el navegador de manera persistente**, incluso después de cerrar la pestaña o reiniciar el navegador.
 
-https://schdev-spn.github.io/Local_storage/
+👉 [Ver demo en GitHub Pages](https://schdev-spn.github.io/Local_storage/)
 
 ---
 
@@ -27,23 +27,19 @@ Con este ejercicio, se busca comprender:
 
 ---
 
-
-🤝 Contribuciones
-
+## 🤝 Contribuciones
 Si deseas mejorar este mini proyecto, puedes:
 
-Hacer un fork del repositorio.
-
-Crear una rama (git checkout -b mejora-funcionalidad).
-
-Realizar tus cambios y hacer commit (git commit -m 'Agregué nueva funcionalidad').
-
-Enviar un pull request.
+1. Hacer un **fork** del repositorio.  
+2. Crear una rama (`git checkout -b mejora-funcionalidad`).  
+3. Realizar tus cambios y hacer commit (`git commit -m 'Agregué nueva funcionalidad'`).  
+4. Enviar un **pull request**.  
 
 ---
 
-📬 Contacto
+## 📬 Contacto
+- GitHub: [SchDEv-spn](https://github.com/SchDEv-spn)  
+- Email: schneider.manrique@gmail.com  
 
-GitHub: [SchDEv-spn](https://github.com/SchDEv-spn)
-
-Email: schneider.manrique@gmail.com
+---
+✨ Este proyecto es solo un ejercicio práctico, pero representa un paso importante en mi aprendizaje de **JavaScript y manejo de datos en el navegador**.
